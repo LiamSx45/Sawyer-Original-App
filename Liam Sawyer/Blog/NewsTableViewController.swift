@@ -21,6 +21,7 @@ class NewsTableViewController: UITableViewController {
         fetchData()
     }
     
+    
     private func fetchData(){
         let feedParser = FeedParser()
         feedParser.parseFeed(url: "https://www.sawyerliam.com/blog/?format=rss") { (rssItems) in

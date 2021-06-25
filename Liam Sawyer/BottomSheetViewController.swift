@@ -29,6 +29,7 @@ class BottomSheetViewController: UIViewController {
         roundViews()
     }
     
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         UIView.animate(withDuration: 0.0, animations: {

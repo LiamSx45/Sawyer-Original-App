@@ -13,6 +13,7 @@ enum CellState {
 }
 
 
+
 class NewsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
