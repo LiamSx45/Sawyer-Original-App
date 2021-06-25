@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vQp-yM-6ud">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="ND3-oQ-2M5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="Obq-sF-9id" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="8Hb-Wg-NM5"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bYP-v3-Rf6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3949" y="-811"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="f34-ML-TcO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="About" id="YEb-BY-GMX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="person.fill" catalog="system" id="vSB-Uf-aJn"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cSi-Vp-sEl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3768" y="-811"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3vK-Kx-HsY">
+            <objects>
+                <tabBarController id="vQp-yM-6ud" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="llc-p1-c4G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.33333334329999997" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Obq-sF-9id" kind="relationship" relationship="viewControllers" id="UtN-4r-GZG"/>
+                        <segue destination="YEb-BY-GMX" kind="relationship" relationship="viewControllers" id="Qkv-rD-rRc"/>
+                        <segue destination="3Xe-ns-xfn" kind="relationship" relationship="viewControllers" id="m1t-gf-vDw"/>
+                        <segue destination="q7e-Hs-o2b" kind="relationship" relationship="viewControllers" id="e54-34-z8c"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sNj-6p-KeN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3695" y="-1205"/>
+        </scene>
+        <!--Shop-->
+        <scene sceneID="v1M-Mu-8Jr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Shop" id="q7e-Hs-o2b" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Shop" image="bag.fill" catalog="system" id="LQ5-Cx-r29"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8LM-L1-DkI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3475" y="-811"/>
+        </scene>
+        <!--Blog-->
+        <scene sceneID="QBE-Rw-ra6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Blog" id="3Xe-ns-xfn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Blog" image="book.fill" catalog="system" id="rU9-D4-lDF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ugT-gY-LkW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3617" y="-811"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bag.fill" catalog="system" width="128" height="128"/>
+        <image name="book.fill" catalog="system" width="128" height="102"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

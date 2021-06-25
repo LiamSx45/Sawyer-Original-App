@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19115.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19107.4"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomSheetViewController" customModule="Liam_Sawyer" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SQ3-77-cc9">
+                    <rect key="frame" x="-0.66666666666665719" y="44" width="390.66666666666663" height="800"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Education" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2d-oS-jJC">
+                            <rect key="frame" x="22" y="182" width="249" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="0Dj-8c-Agc"/>
+                                <constraint firstAttribute="width" constant="249" id="Med-vn-CQS"/>
+                            </constraints>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="35"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Manhattan College B.S." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYf-o8-FPi">
+                            <rect key="frame" x="22" y="263" width="208" height="38"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="208" id="rDG-7t-3mN"/>
+                                <constraint firstAttribute="height" constant="38" id="ufQ-zG-DTK"/>
+                            </constraints>
+                            <color key="textColor" systemColor="systemGrayColor"/>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Computer Engineering '23" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nf-Ck-o36">
+                            <rect key="frame" x="22" y="298" width="208" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="xTd-Y8-tcz"/>
+                            </constraints>
+                            <color key="textColor" systemColor="systemGrayColor"/>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G76-lx-u8r">
+                            <rect key="frame" x="22" y="36" width="100" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="Dpq-il-H9T"/>
+                                <constraint firstAttribute="width" constant="100" id="IOB-ha-mfd"/>
+                                <constraint firstAttribute="width" constant="100" id="hL3-wT-q9V"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="Linkedin Icon"/>
+                            <connections>
+                                <action selector="Linkden_Button:" destination="-1" eventType="touchUpInside" id="MWT-rW-OcO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIj-jq-KCm">
+                            <rect key="frame" x="145.33333333333331" y="36" width="100" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100.67" id="6C0-Wn-Bo2"/>
+                                <constraint firstAttribute="width" constant="100" id="tcc-Lk-Nxq"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="Website Icon"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="6C0-Wn-Bo2"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="SquareSpace_Button:" destination="-1" eventType="touchUpInside" id="b4u-AJ-CvA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yW6-h0-ZVl">
+                            <rect key="frame" x="170" y="4" width="51" height="4"/>
+                            <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" notEnabled="YES"/>
+                            </accessibility>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="51" id="Ein-pr-RCu"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daO-GZ-vCB">
+                            <rect key="frame" x="268.66666666666669" y="36" width="100" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="8LS-g5-lUI"/>
+                                <constraint firstAttribute="width" constant="100" id="RXY-u9-cA6"/>
+                                <constraint firstAttribute="width" constant="100" id="yb0-t8-FlN"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="Facebook Icon"/>
+                            <connections>
+                                <action selector="Facebook_Button:" destination="-1" eventType="touchUpInside" id="1d7-zn-UDT"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="G76-lx-u8r" firstAttribute="top" secondItem="SQ3-77-cc9" secondAttribute="top" constant="36" id="A01-d7-Fqg"/>
+                        <constraint firstItem="NYf-o8-FPi" firstAttribute="top" secondItem="M2d-oS-jJC" secondAttribute="bottom" constant="21" id="D9c-le-Qaj"/>
+                        <constraint firstItem="cIj-jq-KCm" firstAttribute="baseline" secondItem="G76-lx-u8r" secondAttribute="baseline" id="F2O-MX-BZX"/>
+                        <constraint firstItem="M2d-oS-jJC" firstAttribute="top" secondItem="G76-lx-u8r" secondAttribute="bottom" constant="46" id="Feq-4B-Zua"/>
+                        <constraint firstItem="daO-GZ-vCB" firstAttribute="baseline" secondItem="cIj-jq-KCm" secondAttribute="baseline" id="Ggq-Us-K39"/>
+                        <constraint firstItem="NYf-o8-FPi" firstAttribute="leading" secondItem="2nf-Ck-o36" secondAttribute="leading" id="H6R-6X-XL5"/>
+                        <constraint firstItem="yW6-h0-ZVl" firstAttribute="centerX" secondItem="cIj-jq-KCm" secondAttribute="centerX" id="JW0-5O-1sH"/>
+                        <constraint firstItem="2nf-Ck-o36" firstAttribute="top" secondItem="M2d-oS-jJC" secondAttribute="bottom" constant="56" id="KP0-ys-971"/>
+                        <constraint firstItem="daO-GZ-vCB" firstAttribute="leading" secondItem="SQ3-77-cc9" secondAttribute="trailing" constant="-141.66666666666663" id="Ky9-sr-4W9"/>
+                        <constraint firstItem="cIj-jq-KCm" firstAttribute="leading" secondItem="G76-lx-u8r" secondAttribute="trailing" constant="23" id="L3P-TF-1Rv"/>
+                        <constraint firstItem="G76-lx-u8r" firstAttribute="leading" secondItem="M2d-oS-jJC" secondAttribute="leading" id="Lgn-Uc-5dZ"/>
+                        <constraint firstItem="cIj-jq-KCm" firstAttribute="centerX" secondItem="SQ3-77-cc9" secondAttribute="centerX" id="Lut-mT-knQ"/>
+                        <constraint firstItem="daO-GZ-vCB" firstAttribute="trailing" secondItem="SQ3-77-cc9" secondAttribute="trailing" constant="-22" id="M1n-8d-S5D"/>
+                        <constraint firstItem="M2d-oS-jJC" firstAttribute="leading" secondItem="NYf-o8-FPi" secondAttribute="leading" id="PQ3-Qe-MDD"/>
+                        <constraint firstItem="yW6-h0-ZVl" firstAttribute="top" secondItem="SQ3-77-cc9" secondAttribute="top" constant="4" id="Vxg-w8-Eka"/>
+                        <constraint firstItem="daO-GZ-vCB" firstAttribute="firstBaseline" secondItem="G76-lx-u8r" secondAttribute="firstBaseline" id="Wd7-Su-Xi9"/>
+                        <constraint firstItem="cIj-jq-KCm" firstAttribute="top" secondItem="yW6-h0-ZVl" secondAttribute="bottom" constant="24" id="XBX-TK-Nr0"/>
+                        <constraint firstItem="daO-GZ-vCB" firstAttribute="baseline" secondItem="G76-lx-u8r" secondAttribute="baseline" id="XMV-PC-tEX"/>
+                        <constraint firstItem="daO-GZ-vCB" firstAttribute="top" secondItem="cIj-jq-KCm" secondAttribute="top" id="aCs-fI-fIP"/>
+                        <constraint firstItem="G76-lx-u8r" firstAttribute="bottom" secondItem="cIj-jq-KCm" secondAttribute="bottom" id="aYr-Fs-MnJ"/>
+                        <constraint firstItem="NYf-o8-FPi" firstAttribute="trailing" secondItem="2nf-Ck-o36" secondAttribute="trailing" id="bbR-nR-QNK"/>
+                        <constraint firstItem="G76-lx-u8r" firstAttribute="firstBaseline" secondItem="cIj-jq-KCm" secondAttribute="firstBaseline" id="iYb-oC-lBj"/>
+                        <constraint firstItem="G76-lx-u8r" firstAttribute="leading" secondItem="SQ3-77-cc9" secondAttribute="leading" constant="22" id="kPl-YF-8Om"/>
+                        <constraint firstItem="cIj-jq-KCm" firstAttribute="top" secondItem="yW6-h0-ZVl" secondAttribute="bottom" constant="28" id="mQs-VC-EtQ"/>
+                        <constraint firstItem="daO-GZ-vCB" firstAttribute="firstBaseline" secondItem="cIj-jq-KCm" secondAttribute="firstBaseline" id="rUa-aW-foG"/>
+                        <constraint firstItem="G76-lx-u8r" firstAttribute="top" secondItem="cIj-jq-KCm" secondAttribute="top" id="rlB-GR-85i"/>
+                        <constraint firstItem="daO-GZ-vCB" firstAttribute="bottom" secondItem="cIj-jq-KCm" secondAttribute="bottom" id="sEl-uE-JB5"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="L3P-TF-1Rv"/>
+                            <exclude reference="XBX-TK-Nr0"/>
+                            <exclude reference="Ky9-sr-4W9"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SQ3-77-cc9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-0.66666666666665719" id="3vU-up-oxB"/>
+                <constraint firstAttribute="bottom" secondItem="SQ3-77-cc9" secondAttribute="bottom" id="50C-4P-hvZ"/>
+                <constraint firstItem="SQ3-77-cc9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" id="hsQ-Si-mae"/>
+                <constraint firstAttribute="trailing" secondItem="SQ3-77-cc9" secondAttribute="trailing" id="zk7-3J-rB0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="44.615384615384613" y="34.123222748815166"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Facebook Icon" width="480" height="480"/>
+        <image name="Linkedin Icon" width="480" height="480"/>
+        <image name="Website Icon" width="512" height="512"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
