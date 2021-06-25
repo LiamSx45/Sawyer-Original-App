@@ -13,6 +13,7 @@ struct RSSItem {
     var pubDate: String
 }
 
+
 class FeedParser: NSObject, XMLParserDelegate {
     
     private var rssItems: [RSSItem] = []
