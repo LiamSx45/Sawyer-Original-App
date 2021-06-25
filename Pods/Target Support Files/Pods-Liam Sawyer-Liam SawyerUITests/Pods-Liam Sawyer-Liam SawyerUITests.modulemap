@@ -1,0 +1,6 @@
+framework module Pods_Liam_Sawyer_Liam_SawyerUITests {
+  umbrella header "Pods-Liam Sawyer-Liam SawyerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

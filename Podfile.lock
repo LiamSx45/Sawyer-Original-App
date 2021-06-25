@@ -1,0 +1,20 @@
+PODS:
+  - FeedKit (9.1.2)
+  - FloatingPanel (2.4.0)
+
+DEPENDENCIES:
+  - FeedKit (~> 9.0)
+  - FloatingPanel
+
+SPEC REPOS:
+  trunk:
+    - FeedKit
+    - FloatingPanel
+
+SPEC CHECKSUMS:
+  FeedKit: 71653273ab08e618cd6fd1301ca08fc02dca6a9e
+  FloatingPanel: fa60183672ed86313b9e241e34465e82211260e8
+
+PODFILE CHECKSUM: dd4c86462e089f9e001645376810967f25e9ddd4
+
+COCOAPODS: 1.10.1
