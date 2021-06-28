@@ -76,7 +76,10 @@ class NewsTableViewController: UITableViewController {
         cellStates?[indexPath.row] = (cell.descriptionLabel.numberOfLines == 0) ? .expanded : .collapsed
         
         tableView.endUpdates()
+        
     }
+    
+
     
     
 }
